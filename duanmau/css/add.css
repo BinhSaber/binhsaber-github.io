@@ -1,0 +1,51 @@
+.row {
+    margin: auto;
+    padding: 5px;
+}
+
+.row h2 {
+    margin-left: 5px;
+    width: 80%;
+    height: 30px;
+    border: 1px solid black;
+    background-color: darkgrey;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.mb9 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.mb10 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.mb10 input {
+    margin-top: 5px;
+    width: 80.5%;
+    height: 25px;
+    border : 1px solid black;
+    border-radius: 5px;
+}
+
+.mb9 input {
+    margin-top: 5px;
+    width: 80.5%;
+    height: 25px;
+    border : 1px solid black;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+
+.button {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.button input {
+   width: 8%;
+   height: 25px;
+}

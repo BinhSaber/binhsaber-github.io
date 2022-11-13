@@ -1,0 +1,86 @@
+
+.cot h2 {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.header-title {
+    margin-left: 580px;
+    margin-right: 500px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+.dsloai table {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    padding: 20px 0px;
+    border-spacing: 5px;
+}
+
+
+
+.dsloai table th {
+    height: 30px;
+    border: 1px solid black;
+    background-color: darkseagreen;
+}
+
+
+.dsloai table th:nth-child(1) {
+    width: 5%;
+}
+
+
+.dsloai table th:nth-child(2) {
+    width: 10%;
+}
+
+.dsloai table th:nth-child(3) {
+    width: 15%;
+}
+
+.dsloai table th:nth-child(4) {
+    width: 15%;
+}
+
+.dsloai table th:nth-child(5) {
+    width: 15%;
+}
+
+
+.dsloai table th:nth-child(6) {
+    width: 10%;
+}
+
+.dsloai table th:nth-child(7) {
+    width: 10%;
+}
+
+.dsloai table th:nth-child(8) {
+    width: 10%;
+}
+
+.dsloai table th:nth-child(9) {
+    width: 10%;
+}
+.dsloai table td {
+    border: 1px solid black;
+}
+
+.dsloai table input {
+    width: 35%;
+    margin-left: 12px;
+}
+
+.button {
+    margin-left: 5px;
+}
+.button input {
+    width: 150px;
+    height: 30px;
+}

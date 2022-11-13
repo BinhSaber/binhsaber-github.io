@@ -1,0 +1,363 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+}
+
+
+header {
+    height: 40px;
+    background-color: darkturquoise;
+    color: white;
+}
+
+span {
+    margin: 15px 0px 15px 0px;
+    font-size: 18px;
+}
+
+header img {
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+header img {
+    width: 25px;
+}
+
+span {
+    margin-left: 100px;
+}
+
+#logo {
+    padding: 5px 0px;
+}
+
+#menu {
+    background-color: black;
+}
+
+
+#main-menu {
+    float: right;
+    display: flex;
+    list-style: none;
+    margin: 15px 0px 15px 0px;
+}
+
+#menu>a>img {
+    margin-left: 50px;
+    width: 150px;
+    height: 100px;
+    font-size: 25px;
+}
+
+
+
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu li a {
+    color: white;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+#main-menu ul.sub-menu {
+    position: absolute;
+    background-color: black;
+    padding: 5px 0px;
+    list-style: none;
+    width: 200px;
+    border: 1px solid gray;
+    display: none;
+}
+
+#main-menu ul.sub-menu li:hover {
+    background-color: white;
+}
+
+#main-menu li:hover>ul.sub-menu{
+    display: block;
+}
+#main-menu li:hover a{
+    color: chocolate;
+}
+#main-menu ul.sub-menu a {
+    padding: 8px 15px;
+    border-bottom: 1px solid;
+}
+
+#main-menu ul.sub-menu li:last-child a {
+    border: 5px;
+}
+
+#main-menu>li>a{
+    position: relative;
+}
+
+#main-menu ul.sub-menu ul.sub-menu {
+    left: 199px;
+    top: -15px;
+}
+
+#main-menu>li>a::before {
+    content: "";
+    height: 4px;
+    width: 0px;
+    background: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#main-menu>li:hover>a::before {
+    display: block;
+}
+
+.menu-con {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/* Code San Pham */
+.searth-box {
+    padding: 15px;
+}
+
+.searth-box input {
+    height: 30px;
+}
+
+.heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.heading h3 {
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.sp{
+    display: inline-block;
+}
+.sanpham-moi {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 320px;
+    border: 1px solid black;
+    text-decoration: none;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+}
+
+.sanpham-moi:hover {
+    transition: 0.3s;
+    transform: translateY(5px);
+    box-shadow: 0px 0px 8px black;
+}
+
+.sanpham-moi img {
+    width: 300px;
+    height: 250px;
+}
+
+.sanpham-moi input{
+    
+    width: 100%;
+    height: 40px;
+}
+
+.quangcao img {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    div.sp {
+      width: 100%;
+    }
+
+    #sanphammoi ul.sanpham li  {
+        flex-basis: 35%;
+    }
+
+    #sanphambanchay ul.sanpham li {
+        flex-basis: 35%;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .tintuc-cafe {
+        width: 100%;
+    }
+
+    .tintuc-1 {
+        display: block;
+        width: 100%;
+        height: 450px;
+        padding: 45px;
+        line-height: 30px;
+    }
+
+    .tintuc span {
+        margin-left: 150px;
+        font-size: 30px;
+    }
+
+    .tintuc23 {
+        display: none;
+    }
+    p.noidung {
+        width: 90%;
+    }
+}
+
+
+#canvas {
+    margin-left: 550px;
+}
+
+
+/* Footer */
+table {
+    padding: 50px;
+    width: 100%;
+    height: 280px;
+    background-color: #FFD24C;
+    border-spacing: 130px 5px;
+}
+
+
+tr {
+    color: #394BA0;
+}
+
+.hd {
+    font-weight: 600;
+}
+
+td {
+    padding: 10px;
+}
+
+tr img {
+    width: 25px;
+}
+
+.maps {
+    float: right;
+}
+
+/* Slideshow */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.slideshow-container>img {
+    width: 100%;
+    height: 300px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: push;
+  animation-duration: 1.5s;
+}
+
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

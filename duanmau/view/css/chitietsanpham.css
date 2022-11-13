@@ -1,0 +1,288 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+}
+
+
+header {
+    height: 40px;
+    background-color: darkturquoise;
+    color: white;
+}
+
+span {
+    margin: 15px 0px 15px 0px;
+    font-size: 18px;
+}
+
+header img {
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+header img {
+    width: 25px;
+}
+
+span {
+    margin-left: 100px;
+}
+
+#logo {
+    padding: 5px 0px;
+}
+
+#menu {
+    background-color: black;
+}
+
+
+#main-menu {
+    float: right;
+    display: flex;
+    list-style: none;
+    margin: 15px 0px 15px 0px;
+}
+
+#menu>a>img {
+    margin-left: 50px;
+    width: 150px;
+    height: 100px;
+    font-size: 25px;
+}
+
+
+
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu li a {
+    color: white;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+#main-menu ul.sub-menu {
+    position: absolute;
+    background-color: black;
+    padding: 5px 0px;
+    list-style: none;
+    width: 200px;
+    border: 1px solid gray;
+    display: none;
+}
+
+#main-menu ul.sub-menu li:hover {
+    background-color: white;
+}
+
+#main-menu li:hover>ul.sub-menu{
+    display: block;
+}
+#main-menu li:hover a{
+    color: chocolate;
+}
+#main-menu ul.sub-menu a {
+    padding: 8px 15px;
+    border-bottom: 1px solid;
+}
+
+#main-menu ul.sub-menu li:last-child a {
+    border: 5px;
+}
+
+#main-menu>li>a{
+    position: relative;
+}
+
+#main-menu ul.sub-menu ul.sub-menu {
+    left: 199px;
+    top: -15px;
+}
+
+#main-menu>li>a::before {
+    content: "";
+    height: 4px;
+    width: 0px;
+    background: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#main-menu>li:hover>a::before {
+    display: block;
+}
+
+.menu-con {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/* Code San Pham */
+.heading h3 {
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* Code Chi Tiet San Pham */
+
+.thanhtieude {
+    margin: 30px 0px 30px 80px;
+}
+
+.thanhtieude p>a{
+    color: chocolate;
+    text-decoration: none;
+}
+
+.sanpham {
+    margin: 0px 80px 0px 80px;
+    border: 1px;
+}
+
+.trai {
+    float: left;
+}
+
+.trai img {
+    width: 500px;
+}
+
+.phai {
+    float: left;
+    margin-left: 50px;
+}
+
+.phai p {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.gia {
+    color: chocolate;
+    font-size: 35px;
+}
+
+.giamgia {
+    color: gray;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 50px 0px 0px 70px;
+}
+
+
+ul.sanpham img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+ul .product-name {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+ul .product-name:hover {
+    color: chocolate;
+}
+.giasanpham {
+    font-weight: 600;
+    font-size: 20px;
+    color: chocolate;
+}
+
+
+
+
+/* Code button */
+
+.to {
+    font-size: 20px;
+    width: 200%;
+    height: 50px;
+    color: white;
+    background-color: #FF8C00;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+#to {
+    margin-top: 100px;
+    width: 600px;
+    height: 45px;
+    background-color: #f52a2a;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+#nho {
+    margin: 10px 0px 10px 0px;
+    width: 298px;
+    height: 45px;
+    background-color: rgb(15, 9, 90);
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+
+.splienquan h3 {
+    text-align: center;
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+}
+
+/* Code Bình Luận */
+.form-binhluan {
+    margin-top: 280px;
+}
+.binhluan {
+    margin-top: 120px;
+}
+
+/* Code sản phẩm cùng loại */
+.splienquan {
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 85%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 150px;
+}
+
+.listsplq {
+    color: darkorange;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 15x;
+}

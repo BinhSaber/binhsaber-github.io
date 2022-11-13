@@ -1,0 +1,76 @@
+.bill {
+    margin-left: 50px;
+}
+
+.bill input {
+    width: 150px;
+    height: 50px;
+}
+
+.bill input:hover {
+    background-color: #4CB5F5;
+}
+
+.cart-content td img {
+    width: 200px;
+    height: 80px;
+}
+
+.cart-content button {
+    width: 100px;
+    height: 50px;
+}
+
+.boxtitle {
+    padding: 20px;
+    margin-left: 580px;
+    margin-right: 620px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.cart-content table td {
+    border: 1px solid black;
+}
+
+.cart-content table tr {
+    border: 1px solid black;
+}
+
+.cart-content table {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    padding: 20px 0px;
+    border-spacing: 5px;
+}
+
+.cart-content table th {
+    height: 30px;
+    border: 1px solid black;
+    background-color: darkseagreen;
+}
+
+.cart-content table th:nth-child(1) {
+    width: 25%;
+}
+
+.cart-content table th:nth-child(2) {
+    width: 25%;
+}
+
+.cart-content table th:nth-child(3) {
+    width: 15%;
+}
+
+.cart-content table th:nth-child(4) {
+    width: 10%;
+}
+
+.cart-content table th:nth-child(5) {
+    width: 15%;
+}
+
+.cart-content table th:nth-child(6) {
+    width: 10%;
+}

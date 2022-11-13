@@ -1,0 +1,443 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+}
+
+
+header {
+    height: 40px;
+    background-color: darkturquoise;
+    color: white;
+}
+
+span {
+    margin: 15px 0px 15px 0px;
+    font-size: 18px;
+}
+
+header img {
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+header img {
+    width: 25px;
+}
+
+span {
+    margin-left: 100px;
+}
+
+#logo {
+    padding: 5px 0px;
+}
+
+#menu {
+    background-color: black;
+}
+
+
+#main-menu {
+    float: right;
+    display: flex;
+    list-style: none;
+    margin: 15px 0px 15px 0px;
+}
+
+#menu>a>img {
+    margin-left: 50px;
+    width: 150px;
+    height: 100px;
+    font-size: 25px;
+}
+
+
+
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu li a {
+    color: white;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+#main-menu ul.sub-menu {
+    position: absolute;
+    background-color: black;
+    padding: 5px 0px;
+    list-style: none;
+    width: 200px;
+    border: 1px solid gray;
+    display: none;
+}
+
+#main-menu ul.sub-menu li:hover {
+    background-color: white;
+}
+
+#main-menu li:hover>ul.sub-menu{
+    display: block;
+}
+#main-menu li:hover a{
+    color: chocolate;
+}
+#main-menu ul.sub-menu a {
+    padding: 8px 15px;
+    border-bottom: 1px solid;
+}
+
+#main-menu ul.sub-menu li:last-child a {
+    border: 5px;
+}
+
+#main-menu>li>a{
+    position: relative;
+}
+
+#main-menu ul.sub-menu ul.sub-menu {
+    left: 199px;
+    top: -15px;
+}
+
+#main-menu>li>a::before {
+    content: "";
+    height: 4px;
+    width: 0px;
+    background: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#main-menu>li:hover>a::before {
+    display: block;
+}
+
+.menu-con {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bagach {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.bagach ion-icon {
+    font-size: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        display: none;
+        width: 100%;
+    }
+
+    header {
+        margin-left: 100px;
+    }
+    
+    header img {
+        display: flex;
+        width: 25px;
+    }
+    table {
+        width: 600px;
+    }
+    footer {
+        display: none;
+        width: 600px;
+    }
+
+    .menu-con {
+        width: 100%;
+        height: 50px;
+        background-color: aqua;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #hinh {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    #menu {
+        width: 100%;
+    }
+
+    #menu a img {
+        margin-left: 70px;
+    }
+
+    #main-menu {
+        display: none;
+        width: 100%;
+    }
+
+    #main-menu li a {
+        width: 60px;
+        color: black;
+        display: flex;
+    }
+ 
+    #main-menu li {
+        width: 70px;
+        color: black;
+        display: flex;
+    }
+
+    .dn-dk {
+        display: none;
+    }
+}
+
+/* Code slideshow CSS */
+.than img {
+    width: 100%;
+    height: 500px;
+}
+
+.than {
+    text-align: center;
+}
+
+#ten {
+    margin-left: 0;
+}
+.trai {
+    width: 50px;
+    height: 30px;
+}
+.phai {
+    width: 50px;
+    height: 30px;
+}
+.heading h3 {
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+#sanphammoi ul.sanpham {
+    padding: 50px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sanphambanchay ul.sanpham {
+    padding: 40px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sanpham1 img {
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.3s;
+}
+
+.sanpham1 img:hover {
+    transform: scale(1.2);
+}
+
+.hinhtintuc img {
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.3s;
+}
+
+.hinhtintuc img:hover {
+    transform: scale(1.2);
+}
+
+/* CSS San pham */
+#sanphammoi ul.sanpham li {
+    flex-basis: 22%;
+}
+
+#sanphambanchay ul.sanpham li {
+    flex-basis: 22%;
+}
+
+ul.sanpham img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+ul .product-name {
+    line-height: 50px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+ul .product-name:hover {
+    color: chocolate;
+}
+
+.quangcao img {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    div.sp {
+      width: 100%;
+    }
+
+    #sanphammoi ul.sanpham li  {
+        flex-basis: 35%;
+    }
+
+    #sanphambanchay ul.sanpham li {
+        flex-basis: 35%;
+    }
+
+}
+
+/* CSS Tin tuc */
+.tintuc {
+    background-color: #FFFACD;
+    margin-bottom: 100px;
+}
+
+.tintuc img {
+    width: 50px;
+}
+
+.tintuc span {
+    margin-left: 600px;
+    font-size: 30px;
+}
+
+.thongtin a {
+    text-decoration: none;
+}
+.phanloai {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 50px 0px 50px 65px;
+}
+
+.tintuc-cafe {
+    margin-left: 20px;
+    display: flex;
+    list-style: none;
+}
+
+.tintuc-1 {
+    width: 350px;
+    height: 450px;
+    padding: 45px;
+    line-height: 30px;
+}
+
+.hinhtintuc a>img {
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.date {
+    color: gray;
+}
+.ten-tintuc {
+    font-weight: 600;
+    color: black;
+}
+
+.ten-tintuc:hover {
+    color: chocolate;
+}
+.thongtin {
+    width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .tintuc-cafe {
+        width: 100%;
+    }
+
+    .tintuc-1 {
+        display: block;
+        width: 100%;
+        height: 450px;
+        padding: 45px;
+        line-height: 30px;
+    }
+
+    .tintuc span {
+        margin-left: 150px;
+        font-size: 30px;
+    }
+
+    .tintuc23 {
+        display: none;
+    }
+    p.noidung {
+        width: 90%;
+    }
+}
+
+
+#canvas {
+    margin-left: 550px;
+}
+
+
+/* Footer */
+table {
+    padding: 50px;
+    width: 100%;
+    height: 280px;
+    background-color: #FFD24C;
+    border-spacing: 130px 5px;
+}
+
+
+tr {
+    color: #394BA0;
+}
+
+.hd {
+    font-weight: 600;
+}
+
+td {
+    padding: 10px;
+}
+
+tr img {
+    width: 25px;
+}
+
+.maps {
+    float: right;
+}

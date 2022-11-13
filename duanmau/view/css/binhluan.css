@@ -1,0 +1,56 @@
+.title {
+    float:left;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    width: 170px;
+}
+
+.title h4 {
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.form-binhluan {
+    margin-top: 50px;
+    display: block;
+    color: black;
+    margin-right: 50px;
+}
+
+.boxcontent table{
+    background-color: white;
+}
+.boxcontent table {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.boxcontent table{
+    margin-left: 280px;
+    width: 20%;
+    border: 1px solid black;
+}
+
+.searbox {
+    margin-top: 15px;
+    margin-left: 279.5px;
+}
+
+
+#content {
+    width: 350px;
+    height: 45px;
+}
+
+#button-submit {
+    width: 100px;
+    height: 45px;
+}
+
+#button-submit:hover {
+    background-color: aqua;
+}
